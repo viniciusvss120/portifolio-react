@@ -1,0 +1,23 @@
+.sobre{
+  display: grid;
+  /* border: 1px solid #000; */
+  width: 100%;
+  justify-items: center;
+  margin: 250px auto auto 0px;
+}
+
+.sobre h1{
+  text-align: center;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.description{
+  text-align: center;
+  max-width: 80%;
+  color: #f5f5f5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.5;
+ font-weight: normal;
+}

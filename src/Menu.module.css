@@ -1,0 +1,45 @@
+body{
+  height: 100vh;
+  position: relative;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  height: 40px;
+  width: 100%;
+  /* border: 1px solid ; */
+  position: fixed;
+}
+
+.menuItem{
+  display: flex;
+  gap: 45px;
+  font-size: 1.125rem;
+  justify-content: center;
+  align-content: center;
+  box-shadow: 1px 1px 0px 2px transparent;
+  
+}
+.menuItem a{
+  position: relative;
+}
+.menuItem a::after {
+  content: " ";
+  display: inline;
+  width: 0%;
+  height: 4px;
+  background-color: #fb1;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  transition: .3s;
+}
+.menuItem a:hover::after{
+  width: 105%;
+}
+.menuItem a:focus::after{
+  width: 105% !important;
+}
