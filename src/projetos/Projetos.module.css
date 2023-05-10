@@ -1,0 +1,56 @@
+
+.projetos{
+  display: grid;
+  width: 100%;
+  margin: 115px auto auto 0px;
+}
+
+.projetos h1{
+  text-align: center;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.container{
+  position: relative;
+  display: flex;
+  padding: 25px;
+  max-width: 100%;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+.gallery_wraper{
+  overflow-x: auto;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.gallery{
+  display: flex;
+  flex-flow: nowrap;
+  gap: 20px;
+}
+
+.item{
+  max-width: 40%;
+}
+
+.left ,
+.right{
+  max-width: 50px;
+  height: 100px;
+  position: absolute;
+  top: 150px;
+  left: 0;
+  right: auto;
+  bottom: 320px;
+  font-size: 20px;
+  cursor: pointer;
+  background: #fff;
+}
+
+.right{
+  left: auto;
+  right: 0;
+}

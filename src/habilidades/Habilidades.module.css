@@ -1,7 +1,44 @@
 .habilidades{
   display: grid;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   /* height: 100vh; */
   width: 100%;
-  /* margin: 100px auto auto 0px; */
+  margin: 100px auto auto 0px;
+}
+
+.habilidades h1{
+  text-align: center;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.nivel{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid #000; */
+}
+
+.nivel li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 50%;
+  margin: 50px auto;
+  color: #fff;
+}
+
+.stack{
+  width: 50%;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+.stack div{
+  height: 20px;
+  border-radius: 10px;
+  background: #fff;
 }
