@@ -1,21 +1,24 @@
 .home{
   display: grid;
-  /* border: 1px solid ; */
+  border: 1px solid ;
+  /* height: 800px; */
+  
 }
 .perfil{
   display: grid;
   justify-content: center;
   /* border: 1px solid ; */
   margin-top: 90px;
-  width: 40%;
+  width: 100%;
   /* grid-row: 2; */
-  height: 100%;
+  /* height: 100%; */
   justify-self: center;
 }
 
 .foto{
   display: flex;
   justify-content: center;
+  margin: 20px auto;
 }
 .foto img{
   max-width: 80%;
