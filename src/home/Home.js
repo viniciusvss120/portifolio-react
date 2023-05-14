@@ -5,7 +5,7 @@ import foto from '../img/perfil.png'
 
 const Home = () => {
   return (
-    <div className={style.home}>
+    <div className={style.home} id='home'>
       <Menu />
       <div className={style.perfil}>
         <span className={style.bemvindo}>Bem vindos !</span>

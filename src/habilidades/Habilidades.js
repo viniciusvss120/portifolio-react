@@ -2,7 +2,7 @@ import React from 'react'
 import style from './Habilidades.module.css'
 const Habilidades = () => {
   return (
-    <div className={style.habilidades}>
+    <div className={style.habilidades} id='habilidades'>
       <h1>Habilidades</h1>
       <ul className={style.nivel}>
         <li>

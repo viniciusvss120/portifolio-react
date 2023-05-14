@@ -5,11 +5,11 @@ const Menu = () => {
   return (
     <header className={style.menu}>
       <nav className={style.menuItem}>
-        <a href="#">Home</a>
-        <a href="#">Sobre</a>
-        <a href="#">Habilidades</a>
-        <a href="#">Projetos</a>
-        <a href="#">Contato</a>
+        <a href="#home">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
       </nav>
     </header>
   )

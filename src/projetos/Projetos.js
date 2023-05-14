@@ -51,7 +51,7 @@ const Projetos = () => {
 
 
   return (
-    <div className={style.projetos}>
+    <div className={style.projetos} id='projetos'>
       <h1>Projetos</h1>
       <div className={style.container}>
         <button className={`${style.left} btn`}>
