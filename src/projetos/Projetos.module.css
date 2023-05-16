@@ -40,6 +40,7 @@
   height: 280px;
   flex-shrink: 0;
   cursor: pointer;
+  transition: .2s ease-in-out;
 }
 /* .item:hover{
   border: 5px solid #fb1;
@@ -47,25 +48,36 @@
   padding: auto;
 } */
 
+.item:hover{
+  box-shadow: 4px -1px 10px #fff;
+}
+
 .left ,
 .right{
-  max-width: 50px;
-  height: 100px;
+  max-width: 100px;
+  height: 50px;
   position: absolute;
-  padding: 10px;
+  padding: 15px 15px;
   top: 150px;
   left: auto;
+  
   /* right: auto; */
   border: none;
   bottom: 320px;
   font-size: 20px;
   cursor: pointer;
-  background: #fff;
+  color: #fff;
+  background: none;
 }
 
 .right{
   left: auto;
   right: 20px;
+}
+
+.left:hover ,
+.right:hover{
+  box-shadow: 4px -1px 10px #fff;
 }
 
 .gallery_wraper::-webkit-scrollbar {

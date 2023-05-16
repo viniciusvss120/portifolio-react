@@ -1,8 +1,11 @@
 .footer{
   /* border: 1px solid; */
-  width: 95vw;
+  /* width: 95vw; */
   height: 50px;
   margin: 20px auto;
+  background: #090979;
+  display: flex;
+  justify-content: center;
 }
 
 .footer p {

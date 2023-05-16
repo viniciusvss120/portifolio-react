@@ -1,8 +1,8 @@
 body{
   padding: 0px;
   margin: 0px auto;
-  max-width: 92vw;
-  overflow-x: hidden;  
+  /* max-width: 92vw; */
+  /* overflow-x: hidden;   */
 
   font-family: 'Roboto', sans-serif;
   background: #0F2027;  /* fallback for old browsers */
@@ -10,7 +10,8 @@ body{
   background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .app{
-  /* border: 10px solid #fff; */
+  /* border: 1px solid #fff; */
+  max-width: 100vw;
 }
 
 img{
