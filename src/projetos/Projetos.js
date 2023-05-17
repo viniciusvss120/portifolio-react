@@ -42,7 +42,7 @@ const Projetos = () => {
             behavior: "smooth"
           })
 
-          console.log(item[currentItem], currentItem)
+          // console.log(item[currentItem], currentItem)
         })
       })
     }

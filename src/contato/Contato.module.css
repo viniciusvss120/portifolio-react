@@ -62,3 +62,17 @@ textarea{
 .btn:hover{
   background: #fb1;
 }
+
+@media (max-width: 40rem){
+  .contato h1{
+    font-size: 2rem;
+  }
+  .descricao{
+    font-size: 1.125rem;
+    width: 100%;
+    margin: 20px auto;
+  }
+  input{
+    width: 100%;
+  }
+}

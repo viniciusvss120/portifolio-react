@@ -21,3 +21,17 @@
   line-height: 1.5;
  font-weight: normal;
 }
+
+@media (max-width: 40rem){
+  .sobre{
+    margin-top: 80px;
+  }
+  .sobre h1{
+    font-size: 2rem;
+  }
+
+  .description{
+    text-align: justify;
+    font-size: 1.125rem;
+  }
+}

@@ -40,3 +40,32 @@
   border-radius: 10px;
   background: #fff;
 }
+
+@media (max-width: 40rem) {
+  .habilidades{
+    margin-top: 80px;
+    /* border: 1px solid; */
+  }
+
+  .habilidades h1{
+    font-size: 2rem;
+  }
+
+  .nivel{
+    display: grid;
+    font-size: 1.3rem;
+    margin: 0px;
+    /* border: 1px solid; */
+  }
+
+  .nivel li{
+    width: 100%;
+    justify-self: start;
+    gap: 10px;
+    /* border: 1px solid; */
+  }
+
+  .stack{
+    width: 200px;
+  }
+}

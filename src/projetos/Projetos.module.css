@@ -89,3 +89,15 @@
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+@media (max-width: 40rem){
+  .left ,
+  .right{
+    display: none;
+  }
+
+  .item{
+    width: 180px;
+    height: 200px;
+  }
+}
