@@ -68,10 +68,6 @@ const Projetos = () => {
             <img className={`${style.item} ${style.currentItem} img`} src={flexbox} alt="flexbox" />
             <img className={`${style.item} ${style.currentItem} img`} src={login} alt="login" />
             <img className={`${style.item} ${style.currentItem} img`} src={mec} alt="mec" />
-            <img className={`${style.item} ${style.currentItem} img`} src={mec} alt="mec" />
-            <img className={`${style.item} ${style.currentItem} img`} src={mec} alt="mec" />
-            <img className={`${style.item} ${style.currentItem} img`} src={mec} alt="mec" />
-            <img className={`${style.item} ${style.currentItem} img`} src={mec} alt="mec" />
           </div>
         </div>
       </div>
