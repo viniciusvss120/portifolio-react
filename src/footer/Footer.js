@@ -4,7 +4,7 @@ import style from './Footer.module.css'
 const Footer = () => {
   return (
     <div className={style.footer}>
-      <p>Criado e desenvolvido por Vinicius Silva Souza.</p>
+      <a href='https://github.com/viniciusvss120'><p>Vinicius Silva Souza</p></a> 
     </div>
   )
 }

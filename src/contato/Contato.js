@@ -26,7 +26,7 @@ const Contato = () => {
   return (
     <div className={style.contato} id='contato'>
       <h1>Contato</h1>
-      <p className={style.descricao}>Pode entrar em contato enviando um e-mail, através desse formulário ou pelas minhas redes socias logo abaixo.</p>
+      <p className={style.descricao}>"Pode entrar em contato enviando um e-mail através desse formulário."</p>
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder='  Digite seu nome ...' />
         <input type="text" placeholder='  Digite seu e-mail ...' />
