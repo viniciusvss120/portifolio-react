@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './certificados.module.css'
 import instituicao from '../img/instituicao.png'
+import udemy from '../img/udemy.png'
 
 const certificados = () => {
   return (
@@ -32,10 +33,10 @@ const certificados = () => {
           </div>
         </div>
         <div className={style.itens}>
-          <img src={instituicao} alt=''/>
+          <img src={udemy} alt=''/>
           <div className={style.itensInfo}>
             <p>Formação Node.js</p>
-            <span>Origamid</span>
+            <span>Udemy</span>
             <a href='https://udemy-certificate.s3.amazonaws.com/pdf/UC-8d1c7637-094c-4dcc-a24d-f39e4ba299cc.pdf'>Acessar certificado</a>
           </div>
         </div>
@@ -45,6 +46,14 @@ const certificados = () => {
             <p>HTML 5 e CSS 3</p>
             <span>Origamid</span>
             <a href='https://www.origamid.com/certificate/cd8110fa/'>Acessar certificado</a>
+          </div>
+        </div>
+        <div className={style.itens}>
+          <img src={instituicao} alt=''/>
+          <div className={style.itensInfo}>
+            <p>CSS Flexbox</p>
+            <span>Origamid</span>
+            <a href='https://www.origamid.com/certificate/4922cdaf/'>Acessar certificado</a>
           </div>
         </div>
       </div>

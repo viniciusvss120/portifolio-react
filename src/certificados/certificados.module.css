@@ -5,9 +5,12 @@
 }
 
 .container{
-  max-width: 100%;
-  margin: 150px auto 30px 0px;
+  max-width: 80%;
+  margin: 150px auto;
+  /* border: 1px solid ; */
   display: flex;
+  justify-content: center;
+  gap: 50px;
   flex-wrap: wrap;
   
 }
@@ -15,9 +18,11 @@
 .itens{
   display: grid;
   grid-template-columns: 100px 1fr;
-  border: 1px solid ;
+  /* border: 1px solid ; */
+  border-radius: 10px;
+  background: #151515;
   width: 300px;
-  margin: auto 100px 15px 100px;
+  margin: 10px 10px;
 }
 
 .itens img{
@@ -41,4 +46,15 @@
   text-align: center;
   font-size: .965rem;
   border-radius: 50px;
+}
+
+@media (max-width: 40rem){
+  .itens{
+    grid-template-columns: 1fr;
+    width: 190px;
+    gap: 10px;
+  }
+  .itensInfo a{
+    margin-top: 15px;
+  }
 }
